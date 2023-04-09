@@ -10,7 +10,9 @@ Allocate human work to resolve this problem is more expensive than just throw mo
   <strong>Goldplating</strong>: An anti-pattern that happens when a developer continues to work on a particular task long past the point where any work on that task was useful. 
 6) 80% of the poor performance of your application comes from 20% of the code
 7) Struct vs Class. When to use struct: <br><br>
-  ![image](https://user-images.githubusercontent.com/79495407/230752472-746ece04-d4bf-4acb-80f0-690a9a8c1c77.png)
+  ![image](https://user-images.githubusercontent.com/79495407/230752472-746ece04-d4bf-4acb-80f0-690a9a8c1c77.png)<br>
+8) Mutability comes with a price. If you can create a read-only version of your data and work with it, that's almost always going to be faster than one that can change.
+9) You need a class when you are creating or updating your information. The rest of the time, you can use struct.
 
    
   
